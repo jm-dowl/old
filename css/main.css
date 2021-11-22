@@ -45,3 +45,11 @@ ul.posts li {
 .Resume {
   width: 60%;
 }
+
+.blurb {
+  display:inline-block;
+}
+
+.profilepic {
+  display: inline-block;
+}
