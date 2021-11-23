@@ -1,4 +1,4 @@
-body {
+/**body {
     margin: 60px auto;
     width: 70%;
 }
@@ -52,4 +52,146 @@ ul.posts li {
 
 .profilepic {
   display: inline-block;
+} **/
+/********
+from tim
+********/
+html {
+  font-size: 100%;
+}
+body {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  font-family: 'Lucida Console', 'Courier New', 'Monospace';
+  color: #f56b0e;
+  padding: 0;
+}
+.topspace {
+  margin-top: 20px;
+}
+
+
+
+
+:root {
+  --mainColor: #5a0842;
+}
+
+
+a.highlight {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+
+a.highlight:hover {
+  background-size: 4px 50px;
+}
+
+
+/*********************************************************************
+
+
+                            Navigation in header
+
+
+**********************************************************************/
+.navbar {
+  border-width: 1px 0;
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  width: 100%;
+}
+.navbar.stick {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: .85;
+}
+.navbar-collapse {
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.navbar-collapse .navbar-nav {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+.navbar-collapse .navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+.navbar-collapse .navbar-nav > li > a {
+  padding: 20px 30px;
+}
+.dropdown ul.dropdown-menu {
+  top: 85%;
+  text-align: left;
+}
+.dropdown ul.dropdown-menu > li > a {
+  padding: 5px 30px;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #3aafa9;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #17252a;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #feffff;
+  /*background-color: #3aafa9;*/
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #17252a;
+  background-color: #ffffff;
+}
+.navbar-default .dropdown ul.dropdown-menu > li > a {
+  color: #17252a;
+}
+.navbar-default .dropdown ul.dropdown-menu > li > a:hover {
+  background-color: #3aafa9;
+  color: #000000;
+}
+.navbar-default .navbar-toggle {
+  border-color: #3aafa9;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #3aafa9;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #3aafa9;;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #ffffff;
+  color: #000000;
 }
