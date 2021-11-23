@@ -53,12 +53,20 @@ ul.posts li {
 .profilepic {
   display: inline-block;
 } **/
+
+/* CSS HEX */
+--tyrian-purple: #5a1643ff;
+--mandarin: #ef6b37ff;
+--orange-yellow-crayola: #f1d37eff;
+--mint-cream: #e4f1e9ff;
+--ash-gray: #aeb7b3ff;
 /********
 from tim
 ********/
 html {
   font-size: 100%;
 }
+background-color: #5a1643ff
 body {
   font-size: 15px;
   font-size: 0.9375rem;
@@ -74,7 +82,7 @@ body {
 
 
 :root {
-  --mainColor: #5a0842;
+  --mainColor: #e4f1e9ff;
 }
 
 
@@ -87,7 +95,7 @@ a.highlight {
     background-position: 0 100%;
     background-repeat: repeat-x;
     background-size: 4px 4px;
-  color: #000;
+  color: #e4f1e9ff;
   text-decoration: none;
   transition: background-size .2s;
 }
